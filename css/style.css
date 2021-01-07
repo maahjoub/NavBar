@@ -72,9 +72,12 @@ nav .navlink .dropdown li:last-child {
   border-bottom: none;
 }
 
-nav .navlink .after::after {
-  content: "  >>  ";
-  margin-right: 10px;
+nav .navlink .after .fa-angle-left {
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+  right: 7px;
+  color: #fff;
 }
 
 nav .navlink .after:hover .dropdown2 {
