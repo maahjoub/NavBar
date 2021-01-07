@@ -41,7 +41,6 @@ nav .navlink li:hover .dropdown {
   display: block;
   position: absolute;
   background-color: #3b7b3e;
-  right: 250px;
   top: 8vh;
 }
 
