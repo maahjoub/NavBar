@@ -72,10 +72,15 @@ nav .navlink .dropdown li:last-child {
   border-bottom: none;
 }
 
+nav .navlink .after::after {
+  content: "  >>  ";
+  margin-right: 10px;
+}
+
 nav .navlink .after:hover .dropdown2 {
   position: absolute;
   display: block;
-  border: 1px dotted #888;
+  border: 1px dotted #666;
   margin-right: 118px;
   margin-top: -40px;
   background-color: #3b7b3e;
