@@ -41,7 +41,6 @@ nav .navlink li:hover .dropdown {
   display: block;
   position: absolute;
   background-color: #3b7b3e;
-  top: 8vh;
 }
 
 nav .navlink a {
@@ -67,6 +66,27 @@ nav .navlink .dropdown li {
 nav .navlink .dropdown li:hover {
   background-color: #5cc762;
   border-radius: 6px;
+}
+
+nav .navlink .dropdown li:last-child {
+  border-bottom: none;
+}
+
+nav .navlink .after:hover .dropdown2 {
+  position: absolute;
+  display: block;
+  border: 1px dotted #888;
+  margin-right: 118px;
+  margin-top: -40px;
+  background-color: #3b7b3e;
+}
+
+nav .navlink .dropdown2 {
+  display: none;
+}
+
+nav .navlink .dropdown2 li {
+  padding: 10px 20px;
 }
 
 .mobile {
